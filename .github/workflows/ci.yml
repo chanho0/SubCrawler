@@ -6,7 +6,7 @@ name: crawler
 on:
   push:
     paths:
-      - 'src/**'
+      - 'sub/pool/**'
   # Triggers the workflow on push or pull request events but only for the master branch
   schedule:
     # 定时任务
